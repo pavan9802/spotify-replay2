@@ -1,0 +1,52 @@
+.MuiBox-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: black;
+}
+#simple-tabpanel-0 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#simple-tabpanel-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#simple-tabpanel-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.recPlay-div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  width: 750px;
+  height: 100%;
+
+  border-radius: 0;
+}
+
+@media (max-width: 990px) {
+  .MuiTabs-scroller {
+    margin: 30px;
+    padding: 10px;
+  }
+  .img {
+    display: none;
+  }
+  .MuiTabs-scroller {
+    height: 5%;
+  }
+}

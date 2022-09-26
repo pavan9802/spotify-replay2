@@ -1,0 +1,21 @@
+.login {
+  display: grid;
+  background-image: url("https://wallpaperaccess.com/full/2180162.jpg");
+  height: 100vh;
+  place-items: center;
+}
+
+.login > img {
+  height: 300px;
+  width: 300px;
+}
+
+.login > a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 99px;
+  font-weight: 800;
+  background-color: #1db954;
+  text-align: center;
+}

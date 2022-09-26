@@ -1,0 +1,38 @@
+.btnInd {
+  opacity: 0.6;
+  background-color: transparent;
+  border: none;
+  margin-top: 75px;
+  /* text-content: center; */
+  font-size: 0.9em;
+  height: 75px;
+}
+.btnInd:hover {
+  opacity: 1;
+}
+.selected {
+  opacity: 1;
+  border-right: 3px solid lightseagreen;
+}
+
+.icn {
+  margin-right: 10px;
+  margin-bottom: -3.5px;
+  size: 10em;
+}
+.sidebar {
+  height: 100%;
+  /* position:; */
+  width: 100px;
+  background-color: white;
+  box-shadow: 0 0 10px rgb(212, 208, 208);
+}
+
+.btnDiv {
+  display: flex;
+  flex-direction: column;
+}
+.entire-thing {
+  margin-top: 0;
+  height: 100%;
+}

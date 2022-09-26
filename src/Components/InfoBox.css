@@ -1,0 +1,53 @@
+a:link {
+  text-decoration: none;
+  width: 100%;
+}
+
+.row {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  margin-top: 25px;
+  display: flex;
+  color: black;
+}
+.num {
+  flex: 0.1;
+}
+.picture {
+  justify-content: space-between;
+  flex: 0.15;
+}
+.info {
+  flex: 0.75;
+}
+.info_box {
+  height: 10%;
+  width: 750px;
+  background-color: white;
+  box-shadow: 0 0 10px rgb(212, 208, 208);
+}
+.info_box:hover {
+  background-color: gold;
+}
+img {
+  border-radius: 10%;
+  height: 75px;
+  width: 60px;
+}
+
+@media (max-width: 990px) {
+  .info_box {
+    height: 25%;
+
+    width: 100%;
+  }
+  .num {
+    flex: 0.2;
+  }
+  .picture {
+    justify-content: space-between;
+    flex: 0.3;
+  }
+  .info {
+    flex: 0.5;
+  }
+}
