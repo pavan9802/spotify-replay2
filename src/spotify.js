@@ -1,6 +1,6 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 
-const clientId = "";
+const clientId = "f444673ce18846049f1a05f01211d237";
 const redirectUri = "https://spotify-replay-e7c30.web.app/";
 
 const scopes = [
