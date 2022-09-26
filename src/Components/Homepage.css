@@ -5,9 +5,15 @@
 .panel-div {
   flex: 0.8;
 
-  width: 10%;
+  width: 40%;
 }
 
 .sidebar-div {
   flex: 0.1;
+}
+
+@media (max-width: 990px) {
+  .panel-div {
+    margin-left: 40px;
+  }
 }

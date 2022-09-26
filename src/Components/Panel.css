@@ -43,10 +43,16 @@
     margin: 30px;
     padding: 10px;
   }
+  .MuiBox-root {
+    margin: 10px;
+  }
   .img {
     display: none;
   }
   .MuiTabs-scroller {
     height: 5%;
+  }
+  .recPlay-div {
+    margin: 10px;
   }
 }
